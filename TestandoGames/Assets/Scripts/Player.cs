@@ -16,4 +16,4 @@ public class Player : MonoBehaviour
     {
         playerRB.velocity = movement;
     }
-}
+}   

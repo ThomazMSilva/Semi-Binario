@@ -11,7 +11,13 @@ public class Coletavel : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             OnCollected?.Invoke();
+            PistaColetada();
             pegarItem.Play();
         }
+    }
+    
+    public void PistaColetada()
+    {
+        LevelManager.AddCollected();
     }
 }
