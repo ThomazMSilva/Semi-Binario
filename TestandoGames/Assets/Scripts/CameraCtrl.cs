@@ -29,9 +29,6 @@ public class CameraCtrl : MonoBehaviour
             
             default: break;
         }
-
-        /*if(transform.position.x >= targetPosition.x - .1f || transform.position.x <= targetPosition.x + .1f ||
-            transform.position.y >= targetPosition.y - .1f || transform.position.y <= targetPosition.y + .1f)*/
         
     }
 
