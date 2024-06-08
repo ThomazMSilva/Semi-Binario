@@ -1,22 +1,32 @@
 using UnityEngine;
+using UnityEngine.Events; 
 
-public static class LevelManager
+public class LevelManager : MonoBehaviour
 {
     private static int
         level_s = 0,
         collected_s = 0;
     private static readonly int[] maxCollected = new int[] { 5, 5, 6 };
+    public UnityEvent PassouDeNivel; 
+    public static LevelManager instance; 
 
-    public static void NextLevel()
+    void Awake ()
+    {
+        instance = this; 
+        DontDestroyOnLoad(this.gameObject); 
+    }
+    
+    public void NextLevel()
     {
         Debug.Log("Passou de nivel!");
         level_s++;
         collected_s = 0;
+        PassouDeNivel?.Invoke();
     }
     
-    public static int GetCurrentLevel(){ return level_s; }
+    public int GetCurrentLevel(){ return level_s; }
 
-    public static void AddCollected() 
+    public void AddCollected() 
     {
         if (collected_s >= maxCollected[level_s])
         {
@@ -27,6 +37,6 @@ public static class LevelManager
         collected_s++;
     }
 
-    public static int GetCollected() {  return collected_s; }
+    public int GetCollected() {  return collected_s; }
 
 }
