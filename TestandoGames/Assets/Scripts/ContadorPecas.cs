@@ -18,12 +18,12 @@ public class ContadorPecas : MonoBehaviour
     void Start()
 
     {
-        textoPecas.text = "Peças Coletadas: " + LevelManager.instance.GetCollected() + "/6";
+        textoPecas.text = "Peças Coletadas: " + LevelManager.instance.GetCollected() + "/5";
     }
 
     public void AumentarPecas ()
     {
-        textoPecas.text = "Peças Coletadas: " + LevelManager.instance.GetCollected() + "/6";
+        textoPecas.text = "Peças Coletadas: " + LevelManager.instance.GetCollected() + "/5";
     }
 
 }

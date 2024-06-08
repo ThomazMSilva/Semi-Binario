@@ -61,7 +61,7 @@ BlendTree:
   m_Name: Movendo
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 39b1123020a09ca4ab7f4d36d5763536, type: 2}
+    m_Motion: {fileID: 7400000, guid: 0227544ac874d1f4f989435460f2205d, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -69,7 +69,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 8ea919ad7f69d4546aadf700c469b949, type: 2}
+    m_Motion: {fileID: 7400000, guid: 5e8a218b34d1b7745b0c856adc73d016, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -77,7 +77,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 18375a69ccfd11445a00849e11ad9270, type: 2}
+    m_Motion: {fileID: 7400000, guid: 5415a7b4dec6bce4290037ae1e34c3c7, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -85,7 +85,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 18375a69ccfd11445a00849e11ad9270, type: 2}
+    m_Motion: {fileID: 7400000, guid: 5415a7b4dec6bce4290037ae1e34c3c7, type: 2}
     m_Threshold: 1
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -279,7 +279,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PersonagemController
+  m_Name: PersonagemPB
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Blend
@@ -308,8 +308,8 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: Colorido
-    m_StateMachine: {fileID: 7738536139506699786}
+    m_Name: Preto e Branco
+    m_StateMachine: {fileID: -1985773419073202039}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -320,8 +320,8 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
-    m_Name: Preto e Branco
-    m_StateMachine: {fileID: -1985773419073202039}
+    m_Name: Colorido
+    m_StateMachine: {fileID: 7738536139506699786}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
