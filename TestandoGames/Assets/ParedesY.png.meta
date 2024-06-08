@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8dc5206a1d96cb640ac3c1b5bffd5627
+guid: 0b87bfe0e7ffd4bb7be0bb6b8b5c7c71
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Personagem_555x736_0
+      name: ParedesY_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2208
-        width: 555
-        height: 736
+        y: 1024
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 232c6866b6404c54da5402953bc01b48
-      internalID: 454434291
+      spriteID: 92f39f34558bc4b05b94e24f313869f1
+      internalID: -1815319454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_555x736_1
+      name: ParedesY_1
       rect:
         serializedVersion: 2
-        x: 555
-        y: 2208
-        width: 555
-        height: 736
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79d320e4f82d377418a30a04371df06c
-      internalID: -1324014046
+      spriteID: f2a5d58a11b764ec4bb24636e3b42290
+      internalID: 1308067800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_555x736_2
+      name: ParedesY_2
       rect:
         serializedVersion: 2
-        x: 1110
-        y: 2208
-        width: 555
-        height: 736
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3cf193e8fdbda840b68161ee0b5f281
-      internalID: -1468547459
+      spriteID: f747eeedcce20408b94f250b2ae52684
+      internalID: -323910742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_555x736_3
+      name: ParedesY_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1472
-        width: 555
-        height: 736
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,62 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1d02a9eea998744c979ed0a5f284cdd
-      internalID: 223259518
+      spriteID: ab76a4012b62247848afd9934d1108af
+      internalID: 1734250656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_555x736_4
-      rect:
-        serializedVersion: 2
-        x: 555
-        y: 1472
-        width: 555
-        height: 736
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aea3a9ac2f608cd48bde3e5768151168
-      internalID: 182513102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Personagem_555x736_5
-      rect:
-        serializedVersion: 2
-        x: 1110
-        y: 1472
-        width: 555
-        height: 736
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ca5b34749ffc4a458208e5d35f1a798
-      internalID: -907187625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Personagem_555x736_6
+      name: ParedesY_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 736
-        width: 555
-        height: 736
+        y: 512
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a276f72e8ba31c419b2648b27bd7a9e
-      internalID: 1592934438
+      spriteID: 411ab73b0d71541f4a18770a645e9a99
+      internalID: -1088870490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_555x736_7
+      name: ParedesY_5
       rect:
         serializedVersion: 2
-        x: 555
-        y: 736
-        width: 555
-        height: 736
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afc391c343a3f4a4bbfc96e335413500
-      internalID: -569103326
+      spriteID: 0945d0d499c4648d885daf17c349761d
+      internalID: -1641499227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_555x736_8
+      name: ParedesY_6
       rect:
         serializedVersion: 2
-        x: 1110
-        y: 736
-        width: 555
-        height: 736
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,8 +237,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 265249dde43cb134c8d5e8d3481dbf46
-      internalID: -1588329972
+      spriteID: 4d80dc7aacd52468c98e9de5e86fb7f5
+      internalID: -1945974356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParedesY_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad1ea2bfbfb841c6873a541af42f941
+      internalID: 1792504417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParedesY_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec1425cc874e46de9571b12608fbfff
+      internalID: 1243434193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParedesY_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473683d71659240649bbb43f4470ad1d
+      internalID: 310135573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParedesY_10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1813f6f6e704953b90fd245f87b5b0
+      internalID: -2042043637
       vertices: []
       indices: 
       edges: []
@@ -296,15 +338,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Personagem_555x736_0: 454434291
-      Personagem_555x736_1: -1324014046
-      Personagem_555x736_2: -1468547459
-      Personagem_555x736_3: 223259518
-      Personagem_555x736_4: 182513102
-      Personagem_555x736_5: -907187625
-      Personagem_555x736_6: 1592934438
-      Personagem_555x736_7: -569103326
-      Personagem_555x736_8: -1588329972
+      ParedesY_0: -1815319454
+      ParedesY_1: 1308067800
+      ParedesY_10: -2042043637
+      ParedesY_2: -323910742
+      ParedesY_3: 1734250656
+      ParedesY_4: -1088870490
+      ParedesY_5: -1641499227
+      ParedesY_6: -1945974356
+      ParedesY_7: 1792504417
+      ParedesY_8: 1243434193
+      ParedesY_9: 310135573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
