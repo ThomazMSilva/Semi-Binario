@@ -11,13 +11,14 @@ public class Coletavel : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             OnCollected?.Invoke();
-            PistaColetada();
             pegarItem.Play();
         }
     }
     
     public void PistaColetada()
     {
+        print(gameObject.name + "chamou");
         LevelManager.instance.AddCollected();
+        ContadorPecas.instance.AumentarPecas();
     }
 }
