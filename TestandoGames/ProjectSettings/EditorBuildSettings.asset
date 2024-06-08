@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cena Iniciar.unity
     guid: 9c7bc774489b146deb9f7ad21742245e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CenaOpcoes.unity
     guid: 8908c10b0428e495a8c2624c6ad64e87
   - enabled: 1
