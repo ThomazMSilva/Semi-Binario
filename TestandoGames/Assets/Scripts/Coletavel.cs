@@ -18,6 +18,6 @@ public class Coletavel : MonoBehaviour
     
     public void PistaColetada()
     {
-        LevelManager.AddCollected();
+        LevelManager.instance.AddCollected();
     }
 }
