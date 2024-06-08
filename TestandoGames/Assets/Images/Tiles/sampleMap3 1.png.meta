@@ -1,0 +1,2578 @@
+fileFormatVersion: 2
+guid: 012584550c658f6469b2a5f11f33a035
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sampleMap3 1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2c8b92d97f37e47bc3d6f0da23062a
+      internalID: -1425167819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddddefa9b5746d43a9b0d5b001ffb58
+      internalID: 444806968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4130ed26a9c28e146abe95e32407622d
+      internalID: 571241570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3192234ab351a8343ab4049f193b0ca7
+      internalID: -1673596830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4827735f601da174c8f275ab51aec442
+      internalID: 1049503195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0334ebe336a3e6444bf3601ff05806ba
+      internalID: 1011425384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_6
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47785e5e634e52c4ab35f06e2b3b6654
+      internalID: 668094306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df9b3933769fcc43bf8561f3f904b74
+      internalID: -1463180518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9913d398a98bf41a27d1b2b615ad26
+      internalID: 1163362926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b202ca7bed011fd4e9e781e0fb1dda14
+      internalID: 700221048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_10
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d910d0d3790ad4d45a284017b4c6045e
+      internalID: -2050596644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_11
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb22c9e93e11304b8006667a0a63a00
+      internalID: -373398173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_12
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800bb98b274c4e84ea75e829e2692ef1
+      internalID: 3336162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_13
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 533.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0362a87a278b3ff4f923170d7c7040ef
+      internalID: -394769274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00091fac96b21944a9459a87917a015
+      internalID: -1248544979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46491fdcb199d654e8d0d1c612ca8ee3
+      internalID: 1359587784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7be62c0e5cdf5f4598e12620583b051
+      internalID: -997584071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f3053dbb0bc4499b2b720cea4c599
+      internalID: 808964170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_18
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e166a76ece3e044d827442ad18dcb41
+      internalID: 1354244427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3de957dec9f1e4abd53ea667daa64b
+      internalID: -1679583778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_20
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a6ea5fee9b7dd4289f7f6527b1f6a5
+      internalID: -885178960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88028ea4ae16f5c47ae31902b73d913a
+      internalID: -1886107038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085c946e9950feb4eb43a775806738ef
+      internalID: -1674013513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_23
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfefa1bc891d47489713ad613451ef0
+      internalID: 714395942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_24
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e26cd789ee957409f2183701faa509
+      internalID: 559603920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_25
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51af0903418c3747957a10c3ddca4e7
+      internalID: 772820945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_26
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d84ddff230db2a4a8277a7f1ec72788
+      internalID: -1014415928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_27
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 457.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7f2df26f6fa6c4cb5fda5a24945fbb
+      internalID: -1856490663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84423818b2c78a74ea13ced5475b904e
+      internalID: -1350442495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bda2588c8ac554e808bf68276266c8
+      internalID: -2022627295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c39073ba3928574bb8a71ba5760bd7a
+      internalID: -1946448787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474ada805856c6c46aa89fe53992d640
+      internalID: 1247257948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_32
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d3cb54b74a0984c86eee10d465e327
+      internalID: 1670770136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d52c07c15a9ba41b3da4be343d6e76
+      internalID: -373675924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_34
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9339fb18f26821340b888926815f91d8
+      internalID: -77273390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_35
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6932811720d44f24494e8d0a6ecc7887
+      internalID: -1065537026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_36
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d521e3a7af325a6428c4fdbe098aa2eb
+      internalID: -895353167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_37
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef711fcd2c5b2f4d9623267d563b51f
+      internalID: -1262056613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_38
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1952b2041d7885f48b3df453566fcb53
+      internalID: 1951463601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_39
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea619891c0d848348af39f166b39e71d
+      internalID: -272039740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_40
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934345509a1203b40a63f49563128101
+      internalID: -1730425606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_41
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 381.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571981d373e91a04b896b1a1f2ebf7ce
+      internalID: 1547291374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dd4b0221c947348ac360f678ef884d
+      internalID: -324993636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa1a8f66aac8cd4aba9e56ee4de22ad
+      internalID: -684720506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cdc40906266ed47a2dc0d03d75c6e1
+      internalID: 1393551044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_45
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b16e82313c43e4a851202c491e3eff
+      internalID: 104075482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_46
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24df77495bf8ad4ab4d7f3bf1d2b51d
+      internalID: -1094455555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67531624ec73e98479b5a88dadbbbc1b
+      internalID: 371312865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_48
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c45be1c0c7834f9ec5d2be349c216
+      internalID: -1208972866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_49
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91047b7f4729b6a47b0a60039edafecb
+      internalID: 59816619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_50
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49749e0ac58d8f469fc3e44a29dd95e
+      internalID: -1084760638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_51
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a0598f0f956d478567a9ec25eb7a1
+      internalID: -1722191807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_52
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd3a139c33003742bb1b7bb73060927
+      internalID: -1176671209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_53
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc862831136e76345924e81076337483
+      internalID: -104024528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_54
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e56550316490c43a8f525e66d70934
+      internalID: 888198585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_55
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 305.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec79a4033c04f4f8eb6b7989d86efa
+      internalID: -1645332812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_56
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e69ba1002431c34d8ce5a741312624b
+      internalID: 336949808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2e3eb0ec9c3ad42bcd3e1b10648922
+      internalID: -2072426435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61513a28dc1646944a2b63adab116d60
+      internalID: -2007901363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_59
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fbe3a220679a04d8a376d06a4160fa
+      internalID: 1495216602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_60
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d8ba52d5d67074c8434ab4f728689f
+      internalID: -205750933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeeaba2fce99f142a720287b53f55dc
+      internalID: -1114399318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_62
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24542fd4ebb6e624cb5c153f3e00bf6f
+      internalID: 816125675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_63
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18cbe48c4ac8404b883d6b11860e746
+      internalID: 1444345037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_64
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760e6ba8dd3cee145b3ec0328a04d3f1
+      internalID: 1648059895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_65
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b9f0cfe2d502e4abdf1f01ab43b47c
+      internalID: -148109768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_66
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393254cec2efa65469d5825389b681b5
+      internalID: -1996053395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_67
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6336b6dec11424a91bc0a023693e2d
+      internalID: 553941552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_68
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8866e9591d16fe46933e99b638e45ef
+      internalID: -27799843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_69
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 229.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a266c4a18a2114e41aa81ea0613b6d58
+      internalID: 495775441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_70
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35d3e091e28f24448eaa108705f5cea
+      internalID: 46280657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_71
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de9c38622b76840b8dd46f8f5b2673
+      internalID: 1830436692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_72
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b391865f90e226840879819b8f87d0e1
+      internalID: -821265762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_73
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be2a212b3d8bd34dbaa753b7152dd3d
+      internalID: 711366180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_74
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e6d9b8b955024eb0229b4b53bdf6c
+      internalID: 1030414888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f40094271e083444a9389631ad401be
+      internalID: -377181578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_76
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812d12f17f38d8548b00c828ae4293fe
+      internalID: -161137131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_77
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1c15c63ba69964492fa1c6132ac7b3
+      internalID: 1736617016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_78
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf67602dc2bc4c84da0511ad6411e5fc
+      internalID: 2114937519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_79
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fca8d01748cd764490fdf1f68672dbf
+      internalID: 1657484721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_80
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87006708f0858654ca9506d5a1680f58
+      internalID: 1777039553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_81
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f68ed8d03be2f74aa1d868604e02fa2
+      internalID: 2115669009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_82
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e666cd0bf8a4f048aa0d54743c584f3
+      internalID: -899393198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_83
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 153.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa4058fb80b2e2449bc4c1829eea64d
+      internalID: -2043803105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_84
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ed6d988dd15674cb800140d09aa3a9
+      internalID: 1192257495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5fc21b65cfaaa4dba52b8ea9ab910f
+      internalID: 2022346631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_86
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bf32cbbaffc9e4fba527d7d05b302e
+      internalID: 1797774551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_87
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491810a4a966c1c49ad5ed729934e272
+      internalID: 759736442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_88
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b0d4c63e28e60468d9a06831b922be
+      internalID: -1521815952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_89
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9f308b0d892d049916362c0ebb84fb
+      internalID: -1578260487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_90
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1845089502298564baa7ad3a498fadf4
+      internalID: 421031022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_91
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0923287450d08c14299e12f06fc418ed
+      internalID: 1268023569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_92
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce11e2930a964a044a8689cb66bf9ea4
+      internalID: -1042981362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_93
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9700ccce33d0fd47848669575d0f2d7
+      internalID: 187855905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_94
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc7d07a10072f24aa1c6d06979c758f
+      internalID: -1858311744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_95
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a1b8b21299fd24db93657cbf8e2100
+      internalID: 1451226190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_96
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7fe30db12e9e24ab1c1902ef36a121
+      internalID: -390290637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_97
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 77.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1e3573f3053d1458b49ce74d0e453f
+      internalID: 1569671884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_98
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac4a58b59ad37d4e92291cc7b807890
+      internalID: 1850023571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_99
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0948a99e0adb7445ab28134c7085952
+      internalID: -984227296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_100
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0ae77c38d84304db03b99f1cb1da19
+      internalID: 2132552824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_101
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e414d595e42fcf419218c0a04d46669
+      internalID: 924828975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_102
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b765a91fa4f62741b9d7cec48bd0ee8
+      internalID: -1522606385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dfc6a40afe83b4bba546fc2eb07c3d
+      internalID: 1917123341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_104
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1753dfa5da535a640a1be887e9871782
+      internalID: -167904850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_105
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e218685dfb43a048a9b03945cd28d81
+      internalID: 1119059933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_106
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7388a9551c287d469bfe4b2117192d6
+      internalID: 447380661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_107
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5810f8a092786714390506cc6934f25e
+      internalID: 255823625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_108
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca389b8193e0b4418590abb84057794
+      internalID: -839686144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_109
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d649d0b50601804b89c981608ea2706
+      internalID: -2071830397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_110
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9554250b85a7c1741a47b4a703404ae8
+      internalID: 2111657096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampleMap3 1_111
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1.75
+        width: 76.28571
+        height: 76.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e11f964924f63e4b807542bb1fbe29d
+      internalID: -1132022901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sampleMap3 1_0: -1425167819
+      sampleMap3 1_1: 444806968
+      sampleMap3 1_10: -2050596644
+      sampleMap3 1_100: 2132552824
+      sampleMap3 1_101: 924828975
+      sampleMap3 1_102: -1522606385
+      sampleMap3 1_103: 1917123341
+      sampleMap3 1_104: -167904850
+      sampleMap3 1_105: 1119059933
+      sampleMap3 1_106: 447380661
+      sampleMap3 1_107: 255823625
+      sampleMap3 1_108: -839686144
+      sampleMap3 1_109: -2071830397
+      sampleMap3 1_11: -373398173
+      sampleMap3 1_110: 2111657096
+      sampleMap3 1_111: -1132022901
+      sampleMap3 1_12: 3336162
+      sampleMap3 1_13: -394769274
+      sampleMap3 1_14: -1248544979
+      sampleMap3 1_15: 1359587784
+      sampleMap3 1_16: -997584071
+      sampleMap3 1_17: 808964170
+      sampleMap3 1_18: 1354244427
+      sampleMap3 1_19: -1679583778
+      sampleMap3 1_2: 571241570
+      sampleMap3 1_20: -885178960
+      sampleMap3 1_21: -1886107038
+      sampleMap3 1_22: -1674013513
+      sampleMap3 1_23: 714395942
+      sampleMap3 1_24: 559603920
+      sampleMap3 1_25: 772820945
+      sampleMap3 1_26: -1014415928
+      sampleMap3 1_27: -1856490663
+      sampleMap3 1_28: -1350442495
+      sampleMap3 1_29: -2022627295
+      sampleMap3 1_3: -1673596830
+      sampleMap3 1_30: -1946448787
+      sampleMap3 1_31: 1247257948
+      sampleMap3 1_32: 1670770136
+      sampleMap3 1_33: -373675924
+      sampleMap3 1_34: -77273390
+      sampleMap3 1_35: -1065537026
+      sampleMap3 1_36: -895353167
+      sampleMap3 1_37: -1262056613
+      sampleMap3 1_38: 1951463601
+      sampleMap3 1_39: -272039740
+      sampleMap3 1_4: 1049503195
+      sampleMap3 1_40: -1730425606
+      sampleMap3 1_41: 1547291374
+      sampleMap3 1_42: -324993636
+      sampleMap3 1_43: -684720506
+      sampleMap3 1_44: 1393551044
+      sampleMap3 1_45: 104075482
+      sampleMap3 1_46: -1094455555
+      sampleMap3 1_47: 371312865
+      sampleMap3 1_48: -1208972866
+      sampleMap3 1_49: 59816619
+      sampleMap3 1_5: 1011425384
+      sampleMap3 1_50: -1084760638
+      sampleMap3 1_51: -1722191807
+      sampleMap3 1_52: -1176671209
+      sampleMap3 1_53: -104024528
+      sampleMap3 1_54: 888198585
+      sampleMap3 1_55: -1645332812
+      sampleMap3 1_56: 336949808
+      sampleMap3 1_57: -2072426435
+      sampleMap3 1_58: -2007901363
+      sampleMap3 1_59: 1495216602
+      sampleMap3 1_6: 668094306
+      sampleMap3 1_60: -205750933
+      sampleMap3 1_61: -1114399318
+      sampleMap3 1_62: 816125675
+      sampleMap3 1_63: 1444345037
+      sampleMap3 1_64: 1648059895
+      sampleMap3 1_65: -148109768
+      sampleMap3 1_66: -1996053395
+      sampleMap3 1_67: 553941552
+      sampleMap3 1_68: -27799843
+      sampleMap3 1_69: 495775441
+      sampleMap3 1_7: -1463180518
+      sampleMap3 1_70: 46280657
+      sampleMap3 1_71: 1830436692
+      sampleMap3 1_72: -821265762
+      sampleMap3 1_73: 711366180
+      sampleMap3 1_74: 1030414888
+      sampleMap3 1_75: -377181578
+      sampleMap3 1_76: -161137131
+      sampleMap3 1_77: 1736617016
+      sampleMap3 1_78: 2114937519
+      sampleMap3 1_79: 1657484721
+      sampleMap3 1_8: 1163362926
+      sampleMap3 1_80: 1777039553
+      sampleMap3 1_81: 2115669009
+      sampleMap3 1_82: -899393198
+      sampleMap3 1_83: -2043803105
+      sampleMap3 1_84: 1192257495
+      sampleMap3 1_85: 2022346631
+      sampleMap3 1_86: 1797774551
+      sampleMap3 1_87: 759736442
+      sampleMap3 1_88: -1521815952
+      sampleMap3 1_89: -1578260487
+      sampleMap3 1_9: 700221048
+      sampleMap3 1_90: 421031022
+      sampleMap3 1_91: 1268023569
+      sampleMap3 1_92: -1042981362
+      sampleMap3 1_93: 187855905
+      sampleMap3 1_94: -1858311744
+      sampleMap3 1_95: 1451226190
+      sampleMap3 1_96: -390290637
+      sampleMap3 1_97: 1569671884
+      sampleMap3 1_98: 1850023571
+      sampleMap3 1_99: -984227296
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

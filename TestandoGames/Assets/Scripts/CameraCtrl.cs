@@ -9,12 +9,18 @@ public enum CameraMode
 public class CameraCtrl : MonoBehaviour
 {
     private CameraMode mCameraMode = CameraMode.Following;
+    [SerializeField] float offsetX = 0, offsetY = 0;
     private Vector3 
         offset = new(0, 0, -10f),
         velocity = Vector3.zero;
     [SerializeField] Transform player;
     [SerializeField] float smoothTime = .25f;
 
+
+    private void Start()
+    {
+        offset = new(offsetX, offsetY, -10f);
+    }
     private void FixedUpdate()
     {
         switch (mCameraMode)
