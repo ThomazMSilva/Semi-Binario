@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Rigidbody2D playerRB;
     [SerializeField] private Animator playerAnim;
     [SerializeField] private float speed, movMagnitude;
+    [SerializeField] private Light luz; 
     private Vector2 
         movement,
         lastMovement;

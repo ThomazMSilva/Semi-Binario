@@ -1,7 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events; 
 
-public class LevelManager : MonoBehaviour
+//[[FilePath("SomeSubFolder/StateFile.foo", FilePathAttribute.Location.PreferencesFolder)]]
+
+public class LevelManager : MonoBehaviour //ScriptableSingleton<MySingleton>
 {
     private static int
         level_s = 0,
