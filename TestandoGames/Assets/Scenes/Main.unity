@@ -24542,6 +24542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 249409187052402378}
+  - component: {fileID: 2596010985116990314}
   m_Layer: 5
   m_Name: Poema Final  Lvl 1
   m_TagString: Untagged
@@ -24549,6 +24550,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &2596010985116990314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2596010985116990313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnA:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 932270824}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: AvancaNivel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &2598163513645276927
 CanvasRenderer:
   m_ObjectHideFlags: 0

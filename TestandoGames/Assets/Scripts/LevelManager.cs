@@ -25,7 +25,11 @@ public class LevelManager : MonoBehaviour //ScriptableSingleton<MySingleton>
         level_s++;
         collected_s = 0;
         PassouDeNivel?.Invoke();
-        switch(level_s)
+    }
+    
+    public void AvancaNivel()
+    {
+        switch (level_s)
         {
             case 1:
                 SceneManager.LoadSceneAsync("Cap 2");
@@ -34,11 +38,10 @@ public class LevelManager : MonoBehaviour //ScriptableSingleton<MySingleton>
             case 2:
                 SceneManager.LoadSceneAsync("Cap 3");
                 break;
-            
-            default:break;
+
+            default: break;
         }
     }
-    
     public int GetCurrentLevel(){ return level_s; }
 
     public void AddCollected() 
