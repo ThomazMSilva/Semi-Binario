@@ -32,14 +32,16 @@ public class LevelManager : MonoBehaviour //ScriptableSingleton<MySingleton>
         switch (level_s)
         {
             case 1:
+                print("Carregando cena 2");
                 SceneManager.LoadSceneAsync("Cap 2");
                 break;
 
             case 2:
+                print("Carregando cena 3");
                 SceneManager.LoadSceneAsync("Cap 3");
                 break;
 
-            default: break;
+            default: print("Não conseguiu carrgar cena"); break;
         }
     }
     public int GetCurrentLevel(){ return level_s; }
