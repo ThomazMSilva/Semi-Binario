@@ -3,21 +3,19 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
-//[[FilePath("SomeSubFolder/StateFile.foo", FilePathAttribute.Location.PreferencesFolder)]]
 
-public class LevelManager : MonoBehaviour //ScriptableSingleton<MySingleton>
+public class LevelManager : MonoBehaviour
 {
     private static int
         level_s = 0,
         collected_s = 0;
-    private static int[] maxCollected = new int[] { 5, 5, 5 };
+    private static readonly int[] maxCollected = new int[] { 5, 5, 5 };
     public UnityEvent PassouDeNivel; 
     public static LevelManager instance;
 
     void Awake ()
     {
-        instance = this; 
-        //DontDestroyOnLoad(this.gameObject); 
+        instance = this;
     }
     
     public void NextLevel()
