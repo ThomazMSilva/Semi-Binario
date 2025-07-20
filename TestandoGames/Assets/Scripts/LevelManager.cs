@@ -12,10 +12,28 @@ public class LevelManager : MonoBehaviour
     private static readonly int[] maxCollected = new int[] { 5, 5, 5 };
     public UnityEvent PassouDeNivel; 
     public static LevelManager instance;
+    public PuzzleVisual puzzleVisual;
 
-    void Awake ()
+    void Awake()
     {
         instance = this;
+        if (PassouDeNivel == null)
+            PassouDeNivel = new UnityEvent();
+            
+        // Conecta o evento automaticamente
+        PassouDeNivel.AddListener(AtivarPuzzle);
+    }
+    
+    private void AtivarPuzzle()
+    {
+        if (puzzleVisual != null)
+        {
+            puzzleVisual.ShowPuzzleUI();
+        }
+        else
+        {
+            Debug.LogWarning("PuzzleVisual não atribuído no LevelManager");
+        }
     }
     
     public void NextLevel()
@@ -39,7 +57,7 @@ public class LevelManager : MonoBehaviour
                 SceneManager.LoadSceneAsync("Cap 3");
                 break;
 
-            default: print("N�o conseguiu carrgar cena"); break;
+            default: print("N�o conseguiu carrgar cena"); break;
         }
     }
     public int GetCurrentLevel(){ return level_s; }

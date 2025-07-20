@@ -10,10 +10,12 @@ public class PuzzleVisual : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     [SerializeField] private RectTransform[] puzzlePieces;
     [SerializeField] private RectTransform[] correctPositions;
     [SerializeField] private float snapDistance = 50f;
+    [SerializeField] private GameObject completionObject;
 
     private bool[] piecesLocked;
     private int currentDraggingIndex = -1;
     private Vector2[] initialPositions;
+    private int correctPiecesCount = 0;
 
     private void Awake()
     {
@@ -35,7 +37,10 @@ public class PuzzleVisual : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
             initialPositions[i] = puzzlePieces[i].anchoredPosition;
         }
 
-        HidePuzzleUI();
+        if (completionObject != null)
+        {
+            completionObject.SetActive(false);
+        }
     }
 
     public void ShowPuzzleUI()
@@ -49,8 +54,10 @@ public class PuzzleVisual : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
         puzzleUI.SetActive(false);
     }
 
-    private void ResetPuzzle()
+    public void ResetPuzzle()
     {
+        correctPiecesCount = 0; // Adicione esta linha se você ainda não tiver
+        
         for (int i = 0; i < puzzlePieces.Length; i++)
         {
             puzzlePieces[i].anchoredPosition = initialPositions[i];
@@ -102,6 +109,11 @@ public class PuzzleVisual : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
                 piecesLocked[currentDraggingIndex] = true;
                 puzzlePieces[currentDraggingIndex].GetComponent<Image>().raycastTarget = false;
 
+                correctPiecesCount++; // Incrementa o contador
+
+                // Verifica se todas as peças estão corretas
+                CheckPuzzleCompletion();
+
                 // Notify manager if it exists
                 if (PuzzleManager.Instance != null)
                 {
@@ -112,9 +124,21 @@ public class PuzzleVisual : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
 
         currentDraggingIndex = -1;
     }
-    
-    public void OnPointerDown(PointerEventData eventData)
-{
-    Debug.Log("Pointer down detected on: " + eventData.pointerCurrentRaycast.gameObject.name);
-}
+
+    private void ShowPoemaFinal()
+    {
+            if (completionObject != null)
+            {
+                completionObject.SetActive(true);
+            }
+    }
+     private void CheckPuzzleCompletion()
+    {
+        if (correctPiecesCount >= puzzlePieces.Length)
+        {
+            Invoke("HidePuzzleUI", 2f);
+            Invoke("ShowPoemaFinal", 2f);
+        }
+    }
+
 }
