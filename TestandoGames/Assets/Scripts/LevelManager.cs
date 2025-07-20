@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
     private static int
         level_s = 0,
         collected_s = 0;
+    public static int CurrentLevel => level_s;
     private static readonly int[] maxCollected = new int[] { 5, 5, 5 };
     public UnityEvent PassouDeNivel; 
     public static LevelManager instance;

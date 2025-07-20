@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -13,7 +12,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        movement = new(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Vertical") * speed);
+        movement = new(Input.GetAxisRaw("Horizontal") * speed, Input.GetAxisRaw("Vertical") * speed);
         movMagnitude = movement.magnitude;
 
         if (movMagnitude != 0)
@@ -37,7 +36,12 @@ public class Player : MonoBehaviour
     {
         playerRB.velocity = movement;
     }
-    
+
+    private void Start()
+    {
+        if (LevelManager.CurrentLevel > 0) playerAnim.SetLayerWeight(1, 1);
+    }
+
     void UpdateAnimation()
     {
         playerAnim.SetFloat("movimentoMag", movMagnitude);

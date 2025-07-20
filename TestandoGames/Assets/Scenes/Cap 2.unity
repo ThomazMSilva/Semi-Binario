@@ -6643,6 +6643,51 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &156094809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 156094810}
+  - component: {fileID: 156094811}
+  m_Layer: 0
+  m_Name: FadeUtility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &156094810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156094809}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &156094811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156094809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a073ddb6d1f81d45a60940e2f15bcc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 0.5
 --- !u!1 &259314692
 GameObject:
   m_ObjectHideFlags: 0
@@ -6726,13 +6771,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3769532468872479046}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 3769532468872479046}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7066,16 +7111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 690072373582142813}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 690072373582142813}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7094,6 +7140,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!61 &499470801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7203,6 +7251,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -8675,16 +8726,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3769532468872479046}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 3769532468872479046}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8703,6 +8755,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!61 &1493011943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8812,6 +8866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -9008,16 +9065,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2586146443932137939}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2586146443932137939}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9036,6 +9094,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!61 &1682398759
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9145,6 +9205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -9207,16 +9270,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1236000632373755471}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1236000632373755471}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9235,6 +9299,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!61 &1692043558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9344,6 +9410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -9461,6 +9530,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  puzzleVisual: {fileID: 0}
 --- !u!4 &1955250107
 Transform:
   m_ObjectHideFlags: 0
@@ -18928,6 +18998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
@@ -18956,6 +19027,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!224 &2190301982872798721
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19971,6 +20044,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -20298,6 +20374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -20358,6 +20437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -21096,6 +21178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -21290,6 +21375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
@@ -21318,6 +21404,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!114 &5350017276633083876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21941,6 +22029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
@@ -21969,6 +22058,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!1 &6037202292641359089
 GameObject:
   m_ObjectHideFlags: 0
@@ -22105,6 +22196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
@@ -22133,6 +22225,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!1 &6237646087523762838
 GameObject:
   m_ObjectHideFlags: 0
@@ -22930,6 +23024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f13c6db7a52942b42681685f9f7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxis: Interact
   OnCollected:
     m_PersistentCalls:
       m_Calls:
@@ -22958,6 +23053,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   pegarItem: {fileID: 5232234275274368337}
+  inputRequirementDisplay: {fileID: 0}
+  fallbackPath: Prefabs/RequirementDisplay
 --- !u!222 &7889419911479069082
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23156,13 +23253,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1236000632373755471}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1236000632373755471}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23760,13 +23857,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2586146443932137939}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2586146443932137939}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24003,6 +24100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c58ef750914a6e48a0117433c8b2f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEnableAction:
+    m_PersistentCalls:
+      m_Calls: []
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
@@ -24099,13 +24199,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 690072373582142813}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 156094811}
+        m_TargetAssemblyTypeName: Assets.Scripts.FadeUtility, Assembly-CSharp
+        m_MethodName: SetActiveFade
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 690072373582142813}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24138,3 +24238,4 @@ SceneRoots:
   - {fileID: 740065988}
   - {fileID: 396605767}
   - {fileID: 462473769}
+  - {fileID: 156094810}
