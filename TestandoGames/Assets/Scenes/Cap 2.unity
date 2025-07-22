@@ -8586,7 +8586,7 @@ Animator:
   m_GameObject: {fileID: 1119945907}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1c2089c855facd34a981d389c4134d11, type: 2}
+  m_Controller: {fileID: 9100000, guid: f5cfaef7b16b9bb4da466566455aad76, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19006,18 +19006,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1820996009}
-        m_TargetAssemblyTypeName: MudaCena, Assembly-CSharp
-        m_MethodName: LoadarCena
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Cap 3
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &484489921120012435
 GameObject:
   m_ObjectHideFlags: 0
@@ -25603,9 +25591,9 @@ MonoBehaviour:
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1955250106}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: AvancaNivel
+      - m_Target: {fileID: 462473770}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: VoltarJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25615,9 +25603,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 462473770}
-        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
-        m_MethodName: VoltarJogo
+      - m_Target: {fileID: 1955250106}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: CarregarProximoNivel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

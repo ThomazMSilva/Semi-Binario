@@ -39,12 +39,13 @@ public class LevelManager : MonoBehaviour
     
     public void NextLevel()
     {
+        Debug.Log("Passou de nivel");
         level_s++;
         collected_s = 0;
         PassouDeNivel?.Invoke();
     }
     
-    public void AvancaNivel()
+    public void CarregarProximoNivel()
     {
         switch (level_s)
         {
@@ -78,7 +79,7 @@ public class LevelManager : MonoBehaviour
 
     public int GetCollected() {  return collected_s; }
 
-    public IEnumerator TransicionaCena(Image transitionImage, float transitionTime, string method = null)
+    public IEnumerator TransicionaCena(Image transitionImage, float transitionTime, IEnumerator method = null)
     {
         float
             timeMultiplier = 1 / transitionTime * .5f;
@@ -103,7 +104,7 @@ public class LevelManager : MonoBehaviour
         }
 
         //Faz coisas entre transicao
-        if (method != null) Invoke(method, 0);
+        yield return method;
 
         //Fade Out
         while (transitionImage.color.a > 0)
@@ -116,5 +117,11 @@ public class LevelManager : MonoBehaviour
 
         transitionImage.gameObject.SetActive(false);
         yield return null;
+    }
+
+    private IEnumerator LoadAsync(string sceneName)
+    {
+        AsyncOperation loadingInfo = SceneManager.LoadSceneAsync(sceneName);
+        while (!loadingInfo.isDone) yield return null;
     }
 }

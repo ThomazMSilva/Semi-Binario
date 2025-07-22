@@ -21698,18 +21698,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 163237276}
-        m_TargetAssemblyTypeName: MudaCena, Assembly-CSharp
-        m_MethodName: LoadarCena
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Cap 3
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!222 &1018671799338157948
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23208,9 +23196,9 @@ MonoBehaviour:
   OnDisableAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 932270824}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: NextLevel
+      - m_Target: {fileID: 142463562}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: VoltarJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23220,9 +23208,9 @@ MonoBehaviour:
           m_StringArgument: Cap 2
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 142463562}
-        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
-        m_MethodName: VoltarJogo
+      - m_Target: {fileID: 932270824}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: CarregarProximoNivel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
